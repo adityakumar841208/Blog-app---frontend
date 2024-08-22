@@ -24,7 +24,7 @@ const BlogList = () => {
     };
 
     fetchBlogs();
-  }, []);
+  }, [blogs]);
 
   const handleClick = (blog) => {
     navigate('/viewBlog', { state: { title: blog.title, blog: blog.blog, timestamp: blog.timestamp } });
