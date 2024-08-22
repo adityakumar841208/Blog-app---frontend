@@ -30,7 +30,7 @@ const BlogList = () => {
     };
 
     fetchBlogs();
-  }, [navigate]);
+  }, [url]);
 
   const handleClick = (blog) => {
     navigate('/viewBlog', { state: { title: blog.title, blog: blog.blog, timestamp: blog.timestamp } });
