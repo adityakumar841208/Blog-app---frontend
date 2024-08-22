@@ -7,8 +7,7 @@ const BlogList = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const navigate = useNavigate();
-  const url = process.env.REACT_APP_BACKEND_URL;
-
+  const [url , setUrl ] =  useState(process.env.REACT_APP_BACKEND_URL);
 
 
   useEffect(() => {
