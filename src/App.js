@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import CreateBlog from './Components/CreateBlog';
 import Home from './Components/Home';
-import Signin from './Components/Signin';
+import SignUp from './Components/Signin';
 import Login from './Components/Login';
 import YourBlogs from './Components/YourBlogs';
 import ViewBlog from './Components/ViewBlog';
@@ -20,7 +20,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/create" element={<CreateBlog />} />
-            <Route path="/signin" element={<Sign UP/>} />
+            <Route path="/signin" element={<SignUP/>} />
             <Route path="/login" element={<Login />} />
             <Route path="/yourblogs" element={<YourBlogs />} />
             <Route path="/viewBlog" element={<ViewBlog />} />
