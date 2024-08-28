@@ -18,7 +18,7 @@ const ViewBlog = () => {
                 <p className="text-sm text-gray-500">{new Date(timestamp).toLocaleString()}</p>
             </div>
             <div> 
-                <p className="text-gray-700 leading-relaxed whitespace-pre">{blog}</p>
+                <p className="text-gray-700 leading-relaxed whitespace-pre-line">{blog}</p>
             </div>
             <div className="mt-6">
                 <button 
