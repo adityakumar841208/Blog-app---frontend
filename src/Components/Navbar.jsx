@@ -19,7 +19,7 @@ const Navbar = () => {
         <Link to="/create" className="hover:bg-blue-700 px-3 py-2 rounded">Create Blog</Link>
         <Link to="/yourblogs" className="hover:bg-blue-700 px-3 py-2 rounded">Your Blogs</Link>
         <Link to="/login" className="hover:bg-blue-700 px-3 py-2 rounded">Login</Link>
-        <Link to="/signin" className="hover:bg-blue-700 px-3 py-2 rounded">Sign In</Link>
+        <Link to="/signin" className="hover:bg-blue-700 px-3 py-2 rounded">Sign Up</Link>
       </div>
       <div className="lg:hidden">
         <button onClick={toggleMenu}>
